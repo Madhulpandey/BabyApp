@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Baby App</string>
+    <string name="drop_table">DROP TABLE IF EXISTS</string>
+    <string name="enter_item">Enter Item</string>
+    <string name="hint_item">Item Name</string>
+    <string name="hint_qty">Quantity</string>
+    <string name="hint_color">Color</string>
+    <string name="hint_Size">Size</string>
+    <string name="save_Button">Save</string>
+    <string name="Sure_text">Are you sure?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+</resources>

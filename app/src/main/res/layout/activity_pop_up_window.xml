@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_id"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:padding="24dp"
+            android:background="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/title"
+                android:text="@string/enter_item"
+                android:textStyle="italic"
+                android:layout_centerHorizontal="true"
+                android:textSize="18sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/babyItem"
+                android:hint="@string/hint_item"
+                android:layout_below="@+id/title"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/itemQunatity"
+                android:hint="@string/hint_qty"
+                android:layout_below="@+id/babyItem"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/itemColour"
+                android:hint="@string/hint_color"
+                android:layout_below="@+id/itemQunatity"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/itemSize"
+                android:hint="@string/hint_Size"
+                android:layout_below="@+id/itemColour"
+                />
+            <Button
+                android:id="@+id/saveButton"
+                android:layout_below="@+id/itemSize"
+                android:layout_marginTop="5dp"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:text="@string/save_Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>
